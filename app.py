@@ -118,14 +118,16 @@ if st.session_state.ecuacion_actual:
     # Mostrar la ecuación en una caja destacada
     st.markdown(f"""
     <div style="
-        background-color: #f0f2f6;
-        border-left: 5px solid #1f77b4;
+        background-color: #1e1e1e;
+        color: #ffffff;
+        border: 2px solid #1f77b4;
         padding: 20px;
         margin: 20px 0;
-        border-radius: 5px;
+        border-radius: 10px;
         text-align: center;
         font-size: 24px;
         font-weight: bold;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     ">
         {st.session_state.ecuacion_actual}
     </div>
